@@ -1,0 +1,18 @@
+*{
+    font-size: 20px;
+    background-color: whitesmoke;
+    
+}
+.main{
+    display: grid;
+    grid-template-rows: auto;
+    overflow: hidden;
+    justify-items: center;
+}
+h3{
+    text: emphasis 3px; hsl(0, 0%, 59%);    
+}
+.pic{
+    height: 55vh;
+    width: 120vh;
+}
