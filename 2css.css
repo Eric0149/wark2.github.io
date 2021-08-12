@@ -1,24 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
 *{
     font-size: 20px;
+    font-family: 'libre franklin', sans-serif;
     background-color: whitesmoke;    
 }
+
 .main{
     display: grid;
     justify-items: center;
 }
-.main img{
-    padding-left: 10px;
-}
 
+.em em{
+    font-weight: 700;
+    font-size: 25px;
+    opacity: 0.56;
+   
+}
 .em{
-    font-weight: 300;
+    font-weight: 700;
+    font-size: 25px;
+    text-emphasis-color: hsl(0, 0%, 59%);
 }
 
 .field{
+    border-radius: 50px;
+    padding: 7px;
+    padding-left: 19px;
+    font-stretch: narrower;
+    font-size: 20px;
+}
+.but{
+    border-radius: 50px;
+    padding: 10px;
+    background-color: hsl(223, 87%, 63%);
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+.but:hover{
+
 
 }
 
 .pic{
+    margin-top: 9.5vh;
     height: 55vh;
     width: 120vh;
+}
+footer{
+    font-size: 12px;
+    opacity: 0.88;
 }
